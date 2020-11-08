@@ -1782,7 +1782,7 @@ body:not(.post-template) .post-title {
   margin-top: 30px;
 }
 .post-content p {
-  font-family: Verdana, 'Noto Sans KR', serif;  
+  font-family: Verdana, 'Nanum Gothic', serif;  
   font-size: 1.4rem;
 	line-height: 2.3rem;
 	word-break: keep-all;
