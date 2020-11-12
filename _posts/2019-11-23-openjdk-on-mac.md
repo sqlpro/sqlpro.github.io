@@ -11,7 +11,7 @@ tags:
 
 오라클이 자바를 인수한 후로, 꽤 많은 것이 바뀌어 버렸다. 가장 크게 와 닿는 것이 JDK를 다운로드할 때의 귀찮음인데, 이는 오라클이 과거 버전의 JDK를 내려받기 위해서는 필수적으로 오라클 로그인 및 회원 가입을 거쳐야 하도록 만들어버렸기 때문이다. JAVA 11, JAVA 12, JAVA 13, ... 등 버전을 급속도로 올리는 것도 마음에 들지 않기는 매한가지다.
 
- ![오라클_로그인_-_통합_인증_Single_Sign_On_](/Users/prologue/Library/Application Support/typora-user-images/오라클_로그인_-_통합_인증_Single_Sign_On_.png)
+ ![오라클_로그인_-_통합_인증_Single_Sign_On_](/assets/images/오라클_로그인_-_통합_인증_Single_Sign_On_.png)
 
 (JDK를 다운로드 받기 위해서는 일평생 쓸모라고는 없어 보이는 오라클 계정을 만들어 로그인해야 한다. MySQL도 도커 허브에서 설치 가능한 시대에 오라클 계정 쓸 일이 뭐가 있을까..)
 
@@ -19,7 +19,7 @@ tags:
 
 맥에서 OpenJDK를 설치하는 방법은 다음과 같다. 
 
-```java
+```shell
 $ brew tap AdoptOpenJDK/openjdk
 $ brew cask install adoptopenjdk8 
 ...
@@ -46,7 +46,7 @@ OpenJDK 64-Bit Server VM (AdoptOpenJDK)(build 25.275-b01, mixed mode)
 
 만약 기존에 이미 다른 버전의 JDK가 설치되어 있다면 아래와 같이 삭제한다. 
 
-```java
+```shell
 $ sudo brew cask uninstall java
 ```
 
